@@ -9,7 +9,7 @@ variable "aws_region" {
 // attributes such as access_key and secret_key will be read from the
 // environment instead of committed to disk for security.
 provider "aws" {
-  region = "${var.aws_region}"
+  region= "${var.aws_region}"
 }
 
 // This stanza declares a variable named "ami_map" that is a mapping of the
