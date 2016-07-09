@@ -126,10 +126,13 @@ target/
 settings/secrets.tfvars
 settings/secrets-*.tfvars
 settings/secrets-dev.tfvars
-settings/secrets-prod.tfvars
+settings/secrets-prd.tfvars
 terraform.tfstate
 terraform.tfstate.backup
 keys/
 .terraform/*
 .terraform/terraform.tfstate
 .terraform/terraform.tfstate.backup
+settings/prdshrd.tfvars
+settings/prdcton.tfvars
+settings/shared.tfvars
