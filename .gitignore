@@ -131,3 +131,5 @@ terraform.tfstate
 terraform.tfstate.backup
 keys/
 .terraform/*
+.terraform/terraform.tfstate
+.terraform/terraform.tfstate.backup
