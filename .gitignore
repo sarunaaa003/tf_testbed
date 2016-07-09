@@ -130,3 +130,4 @@ settings/secrets-prod.tfvars
 terraform.tfstate
 terraform.tfstate.backup
 keys/
+.terraform/*
