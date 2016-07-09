@@ -59,7 +59,7 @@ resource "aws_route_table" "tf_testbed" {
 
   route {
     cidr_block = "0.0.0.0/0"
-    gateway_id = "${aws_internet_gateway.terraform-tutorial.id}"
+    gateway_id = "${aws_internet_gateway.tf_testbed.id}"
   }
 
   tags { Name = "tf_testbed" }
