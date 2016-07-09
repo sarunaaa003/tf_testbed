@@ -1,0 +1,17 @@
+region = "us-east-1"
+generic_owner = "arun.kumar"
+
+# cidrs in use
+cidr_prdcton = "10.200.0.0/16"
+cidr_staging = "10.201.0.0/16"
+cidr_qatestg = "10.202.0.0/16"
+cidr_devment = "10.203.0.0/16"
+cidr_prdshrd = "10.204.0.0/16"
+cidr_devshrd = "10.205.0.0/16"
+cidr_vpn_110 = "10.110.0.0/16"
+cidr_vpn_111 = "10.111.0.0/16"
+cidr_vpn_112 = "10.112.0.0/16"
+cidr_vpn_cgw = "64.124.14.40/32"
+cidr_vpn_Virtusa = "209.43.29.2/32"
+cidr_cfengine = "10.114.8.66/32"
+cidr_corp_docker = "10.111.210.12/32"
