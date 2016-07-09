@@ -1,4 +1,4 @@
-region_azs = "us-east-1a,us-east-1b,us-east-1c"
+region_azs = "us-east-1a,us-east-1b,us-east-1d"
 ami = "ami-b1ceb4d1"
 instance_type = "t2.micro"
 instance_vol_size = "100"
