@@ -1,5 +1,5 @@
 resource "aws_iam_role" "IR_GENERIC_ROLE" {
-  name = "MM_Generic_Role"
+  name = "prdshrd_Generic_Role"
   assume_role_policy = <<EOF
 {
 "Version": "2012-10-17",
@@ -19,7 +19,7 @@ EOF
 
 
 resource "aws_iam_role" "IR_FLOW_LOGS" {
-    name = "MM_Flow_Logs"
+    name = "prdshrd_Flow_Logs"
     assume_role_policy = <<EOF
 {
   "Version": "2012-10-17",
@@ -38,7 +38,7 @@ EOF
 }
 
 resource "aws_iam_role_policy" "IRP_CW_LOGGER" {
-    name = "MM_Generic_CloudWatch_Logging"
+    name = "prdshrd_Generic_CloudWatch_Logging"
     role = "${aws_iam_role.IR_FLOW_LOGS.id}"
     policy = <<EOF
 {
